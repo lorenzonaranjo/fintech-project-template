@@ -1,0 +1,51 @@
+---
+title: "Your title"
+author:
+  - Partner One
+  - Partner Two
+date: today
+bibliography: references.bib
+---
+
+## The question
+
+What is the technology or market, and what question does this page answer? Why should a finance student care? Due with the proposal on April 1.
+
+## How it works
+
+The mechanism and its economics: who uses it, what problem it solves, who earns what, and what can go wrong.
+
+## Evidence
+
+What the data show. The chunk below only checks that Python runs when the page renders; replace it with your own figure.
+
+```{python}
+#| label: fig-placeholder
+#| fig-cap: "Placeholder: replace with a figure built from real data."
+#| fig-alt: "A placeholder line chart with no data."
+import sys
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(7, 3.5))
+ax.set_title(f"Python {sys.version.split()[0]} is working")
+ax.set_xlabel("Replace me")
+ax.set_ylabel("Replace me")
+plt.show()
+```
+
+## What we learned
+
+The takeaways, in a few sentences.
+
+## What we checked
+
+| Claim | Source | How we checked it |
+|---|---|---|
+| Example: the claim as it appears on the page | Its citation key, such as `@nakamoto2008` | Where in the source it appears (page, table), and who checked it |
+
+: {tbl-colwidths="[40,20,40]"}
+
+## References
+
+::: {#refs}
+:::

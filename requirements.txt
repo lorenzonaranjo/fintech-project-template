@@ -1,0 +1,6 @@
+quarto-cli
+jupyter
+numpy
+pandas
+matplotlib
+requests

@@ -1,0 +1,18 @@
+project:
+  render:
+    - index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    code-tools: true
+    embed-resources: true
+    fig-cap-location: bottom
+    reference-location: margin
+    citation-location: document
+
+execute:
+  echo: true
+  warning: false
