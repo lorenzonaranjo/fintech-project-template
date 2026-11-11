@@ -104,6 +104,7 @@ It pulls the latest commits, stops if anything is not committed, and writes one 
 
 | File | What it is |
 |---|---|
+| `TOPICS.md` | The project topics, with sources and data to start from |
 | `index.qmd` | The page: title, authors, and the list of section files it includes |
 | `_question.qmd`, `_how-it-works.qmd`, `_evidence.qmd`, `_what-we-learned.qmd` | The sections of the page, one file each |
 | `_checks.qmd` | The What we checked table; each member adds rows for the claims they checked |
