@@ -4,3 +4,7 @@ numpy
 pandas
 matplotlib
 requests
+statsmodels
+yfinance
+pyarrow
+psycopg[binary]
