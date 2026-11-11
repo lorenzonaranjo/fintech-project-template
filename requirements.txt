@@ -8,3 +8,4 @@ statsmodels
 yfinance
 pyarrow
 psycopg[binary]
+torch

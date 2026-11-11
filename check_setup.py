@@ -62,7 +62,7 @@ if has_git:
 
 # Python packages
 for pkg in ["numpy", "pandas", "matplotlib", "requests", "jupyter_core",
-            "statsmodels", "yfinance", "pyarrow", "psycopg"]:
+            "statsmodels", "yfinance", "pyarrow", "psycopg", "torch"]:
     try:
         importlib.import_module(pkg)
         check(f"Package {pkg}", True)
