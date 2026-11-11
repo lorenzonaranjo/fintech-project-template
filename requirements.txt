@@ -9,3 +9,4 @@ yfinance
 pyarrow
 psycopg[binary]
 torch
+sentence-transformers
