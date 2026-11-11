@@ -37,9 +37,9 @@ check(
 )
 in_venv = sys.prefix != sys.base_prefix
 check(
-    "Project environment (.venv) active",
+    "Course environment (.venv) active",
     in_venv,
-    "Activate it: source .venv/bin/activate (Mac) or .venv\\Scripts\\activate (Windows)",
+    "From your fin4506 folder: source .venv/bin/activate (Mac) or .venv\\Scripts\\activate (Windows)",
 )
 
 # Git
@@ -84,11 +84,13 @@ check(
     "Install it: https://code.claude.com/docs/en/setup",
 )
 
-# Render the page
-if quarto and Path("index.qmd").exists():
-    print("Rendering index.qmd (this can take half a minute the first time)...")
-    ok, out = run([quarto, "render", "index.qmd"])
-    check("Page renders to index.html", ok and Path("index.html").exists(), out[-500:])
+# Render a page: the project page in the project repository, the test page in the class log
+page = next((p for p in [Path("index.qmd"), Path("setup-test.qmd")] if p.exists()), None)
+if quarto and page:
+    html = page.with_suffix(".html")
+    print(f"Rendering {page} (this can take half a minute the first time)...")
+    ok, out = run([quarto, "render", str(page)])
+    check(f"{page} renders to {html}", ok and html.exists(), out[-500:])
 
 print()
 if all(results):

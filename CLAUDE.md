@@ -1,6 +1,8 @@
 # Instructions for Claude in this project
 
-Two students are writing a page of notes on a fintech topic for FIN 4506/5506 at WashU. The students are the authors and are graded on the page. Your job is to help them write it and to make it easy for them to check every claim. They must be able to explain every sentence and every line of code on the page.
+Three students are writing a page of notes on a fintech topic for FIN 4506/5506 at WashU. The students are the authors and are graded on the page. Your job is to help them write it and to make it easy for them to check every claim. They must be able to explain every sentence and every line of code on the page.
+
+The page is `index.qmd`, which includes one file per section (`_question.qmd`, `_how-it-works.qmd`, `_evidence.qmd`, `_what-we-learned.qmd`, `_checks.qmd`). Each student owns some of these files. Edit the file the student working with you owns, and ask before changing another member's file.
 
 ## Sources
 

@@ -1,0 +1,17 @@
+## Evidence
+
+What the data show. The chunk below only checks that Python runs when the page renders; replace it with your own figure.
+
+```{python}
+#| label: fig-placeholder
+#| fig-cap: "Placeholder: replace with a figure built from real data."
+#| fig-alt: "A placeholder line chart with no data."
+import sys
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(7, 3.5))
+ax.set_title(f"Python {sys.version.split()[0]} is working")
+ax.set_xlabel("Replace me")
+ax.set_ylabel("Replace me")
+plt.show()
+```

@@ -1,0 +1,7 @@
+## What we checked
+
+| Claim | Source | How we checked it |
+|---|---|---|
+| Example: the claim as it appears on the page | Its citation key, such as `@nakamoto2008` | Where in the source it appears (page, table), and who checked it |
+
+: {tbl-colwidths="[40,20,40]"}
