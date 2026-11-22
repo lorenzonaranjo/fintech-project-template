@@ -3,7 +3,9 @@ jupyter
 numpy
 pandas
 matplotlib
+seaborn
 requests
+beautifulsoup4
 statsmodels
 yfinance
 pyarrow

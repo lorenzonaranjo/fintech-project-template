@@ -61,7 +61,7 @@ if has_git:
     )
 
 # Python packages
-for pkg in ["numpy", "pandas", "matplotlib", "requests", "jupyter_core",
+for pkg in ["numpy", "pandas", "matplotlib", "seaborn", "requests", "bs4", "jupyter_core",
             "statsmodels", "yfinance", "pyarrow", "psycopg", "torch",
             "sentence_transformers"]:
     try:
