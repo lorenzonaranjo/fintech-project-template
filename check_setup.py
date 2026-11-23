@@ -61,8 +61,8 @@ if has_git:
     )
 
 # Python packages
-for pkg in ["numpy", "pandas", "matplotlib", "seaborn", "requests", "bs4", "jupyter_core",
-            "statsmodels", "yfinance", "pyarrow", "psycopg", "torch",
+for pkg in ["numpy", "pandas", "matplotlib", "seaborn", "requests", "bs4", "lxml", "jupyter_core",
+            "statsmodels", "sklearn", "yfinance", "pyarrow", "psycopg", "torch",
             "sentence_transformers"]:
     try:
         importlib.import_module(pkg)

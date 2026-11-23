@@ -5,8 +5,10 @@ pandas
 matplotlib
 seaborn
 requests
+lxml
 beautifulsoup4
 statsmodels
+scikit-learn
 yfinance
 pyarrow
 psycopg[binary]
